@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1300"
+   version = "1.3">
+   <BuildAction
+      buildImplicitDependencies = "YES"
+      parallelizeBuildables = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForAnalyzing = "YES"
+            buildForArchiving = "YES"
+            buildForProfiling = "YES"
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+               BlueprintName = "Runner"
+               BuildableIdentifier = "primary"
+               BuildableName = "lovely_roommates.app"
+               ReferencedContainer = "container:Runner.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+            BlueprintName = "Runner"
+            BuildableIdentifier = "primary"
+            BuildableName = "lovely_roommates.app"
+            ReferencedContainer = "container:Runner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <Testables>
+         <TestableReference
+            parallelizable = "YES"
+            skipped = "NO">
+            <BuildableReference
+               BlueprintIdentifier = "331C80D4294CF70F00263BE5"
+               BlueprintName = "RunnerTests"
+               BuildableIdentifier = "primary"
+               BuildableName = "RunnerTests.xctest"
+               ReferencedContainer = "container:Runner.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      allowLocationSimulation = "YES"
+      buildConfiguration = "Debug"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      ignoresPersistentStateOnLaunch = "NO"
+      launchStyle = "0"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      useCustomWorkingDirectory = "NO">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+            BlueprintName = "Runner"
+            BuildableIdentifier = "primary"
+            BuildableName = "lovely_roommates.app"
+            ReferencedContainer = "container:Runner.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Profile"
+      debugDocumentVersioning = "YES"
+      savedToolIdentifier = ""
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      useCustomWorkingDirectory = "NO">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+            BlueprintName = "Runner"
+            BuildableIdentifier = "primary"
+            BuildableName = "lovely_roommates.app"
+            ReferencedContainer = "container:Runner.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
