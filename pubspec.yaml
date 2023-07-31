@@ -87,8 +87,7 @@ flutter_gen:
       class_name: Fonts
   colors:
     enable: true
-    inputs:
-      - assets/colors/colors.xml
+    inputs: []
     outputs:
       class_name: Colors
 

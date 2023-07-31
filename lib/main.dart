@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'common/constants.dart';
 import 'locator/locator.dart';
 import 'router/route.dart';
 import 'ui/pages/login/login_page.dart';
@@ -25,7 +26,7 @@ class Application extends StatelessWidget {
         splitScreenMode: true,
         builder: (context, child) {
           return MaterialApp.router(
-            title: 'Lovely Roommates',
+            title: Constants.appName,
             debugShowCheckedModeBanner: false,
             theme: FlexThemeData.light(scheme: FlexScheme.blueM3, useMaterial3: true),
             darkTheme: FlexThemeData.light(scheme: FlexScheme.blueM3, useMaterial3: true),
